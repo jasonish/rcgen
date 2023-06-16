@@ -40,8 +40,8 @@ webpki = { version = "0.22", features = ["std"] }
 rand = "0.8"
 rsa = "0.9"
 
-[target.'cfg(not(windows))'.dependencies]
-botan = { version = "0.10", features = ["vendored"] }
+#[target.'cfg(not(windows))'.dependencies]
+#botan = { version = "0.10", features = ["vendored"] }
 
 
 # This greatly speeds up rsa key generation times
